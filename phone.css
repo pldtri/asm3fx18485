@@ -1,0 +1,29 @@
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+  #nav-bar li {
+    margin-left: 10px;
+    text-align: center;
+    display: block;
+  }
+  /* General */
+  .td8 .grid-td8,
+  #about .td1 {
+    grid-template-columns: 1fr;
+    height: auto;
+    width: auto;
+  }
+
+  .td6 .grid-td6 {
+    grid-template-columns: 1fr;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .td-234567 .td234567{
+    grid-template-columns: 1fr;
+    width: auto;
+    height: auto;
+  }
+}
+.container{
+  width: auto;
+}

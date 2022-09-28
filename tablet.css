@@ -1,0 +1,33 @@
+/* Media Query for low resolution  Tablets, Ipads */
+@media (max-width: 992px) {
+  #nav-bar li {
+    margin-left: 10px;
+    text-align: center;
+    display: block;
+  }
+/* General */
+ #about .td1{
+    
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1;
+    height: auto;
+    width: auto;
+  }
+  
+.td6 .grid-td6 {
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+  text-align: left;
+  font-size: small;
+}
+.td-234567 .td234567{
+  grid-template-columns: 1fr 1fr;
+  width: auto;
+  height: auto;
+}
+}
+
+.container{
+  width: auto;
+  height: auto;
+}
